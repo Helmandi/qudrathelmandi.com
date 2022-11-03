@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Sticky Navbar | Vanilla Javascript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <a href="#" class="logo">Qudratullah</a>
+    <ul>
+      <li><a href="#home" onclick="toggle()">صفه اصلی</a></li>
+      <li><a href="#about" onclick="toggle()">در باره</a></li>
+      <li><a href="#services" onclick="toggle()">خدمات کار</a></li>
+      <li><a href="#portfolio" onclick="toggle()">نمونه کارها</a></li>
+      <li><a href="#team" onclick="toggle()">همکاری</a></li>
+      <li><a href="#contact" onclick="toggle()">ارتباط با</a></li>
+    </ul>
+    <div class="toggle" onclick="toggle()"></div>
+  </header>
+  <section class="banner" id="home">
+    <h2>ما میتوانیم<br><span>آینده را </span> تغیر دهیم</h2>
+  </section>
+  <section class="sec about" id="about">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>من گمی هستم</h3>
+        <p>از سال 2022 وارد دنیای کسب و کار شدم. در ابتدا فعالیت خود را در زمینه آموزش و راه اندازی نرم افزارهای حسابداری آغاز نمودم. در آن سال
+             ها تعداد محدودی نرم افزار حسابداری در بازار وجود 
+             داشت و شرکت های بسیاری بودند که شناخت کافی از کاربرد این نرم افزارها نداشتند. بنابراین با توجه به
+             علاقه من به حوزه آموزش، تصمیم گرفتم نحوه استفاده درست از حسابداری و ایجاد نظم در
+             ورودی و خروجی ها، گردش مالی و… را در سازمان ها بیاموزم..</p>
+        <a href="#" class="btn">برگشت صفه اصلب</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec about" id="services">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>من چی انجام میدهم</h3>
+        <p>در حال حضر آموزش برای یاد گیری زبان های اصلی برای ویب ساختن
+         .و موبایل آپلیکیشن هستمو در اوقات بیکاری کار آنلاین قعالیت میکنم.
+        </p>
+      </div>
+      <div class="services">
+        <div class="box">
+          <div class="iconBx">
+            <img src="icon1.png">
+          </div>
+          <div class="content">
+            <h2>Design</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="iconBx">
+            <img src="icon2.png">
+          </div>
+          <div class="content">
+            <h2>Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="iconBx">
+            <img src="icon3.png">
+          </div>
+          <div class="content">
+            <h2>Branding</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec stats">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Our Achievements</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco.</p>
+      </div>
+      <div class="statsBox">
+        <div class="box">
+          <h2>120+</h2>
+          <h4>Projects</h4>
+        </div>
+        <div class="box">
+          <h2>80+</h2>
+          <h4>Happy Clients</h4>
+        </div>
+        <div class="box">
+          <h2>10+</h2>
+          <h4>Countries</h4>
+        </div>
+        <div class="box">
+          <h2>50+</h2>
+          <h4>Awards</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec work" id="portfolio">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Recent Work</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco.</p>
+      </div>
+      <div class="workBx">
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+        <div class="brand">
+          <a href="#"><h2>Brand Name</h2></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec team" id="team">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Meet Our Expert</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco.</p>
+      </div>
+      <div class="teamBx">
+        <div class="member">
+          <div class="imgBx">
+            <img src="1.jpg">
+          </div>
+          <div class="details">
+            <div>
+              <h2>John Doe<br><span>Creative Director</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="imgBx">
+            <img src="2.jpg">
+          </div>
+          <div class="details">
+            <div>
+              <h2>John Doe<br><span>Creative Director</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="imgBx">
+            <img src="3.jpg">
+          </div>
+          <div class="details">
+            <div>
+              <h2>John Doe<br><span>Creative Director</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div class="imgBx">
+            <img src="IMG_0820.JPG">
+          </div>
+          <div class="details">
+            <div>
+              <h2>Qudratullah<br><span>Creative Director</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sec contact" id="contact">
+    <div class="content">
+      <div class="mxw800p">
+        <h3>Send Us A Message</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="conactForm">
+        <form>
+          <div class="row100">
+            <div class="inputBx50">
+              <input type="text" name="" placeholder="Full Name">
+            </div>
+            <div class="inputBx50">
+              <input type="text" name="" placeholder="Email Address">
+            </div>
+          </div>
+          <div class="row100">
+            <div class="inputBx100">
+              <textarea placeholder="Message"></textarea>
+            </div>
+          </div>
+          <div class="row100">
+            <div class="inputBx100">
+              <input type="submit" value="Send" name="">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="sci">
+        <ul>
+          <li><a href="#"><img src="facebook.png"></a></li>
+          <li><a href="#"><img src="twitter.png"></a></li>
+          <li><a href="#"><img src="linkedin.png"></a></li>
+        </ul>
+      </div>
+      <p class="copyright">Design & Developed By <a href="#">Qudrat</a></p>
+    </div>
+  </section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+    function toggle(){
+      var header = document.getElementById('header');
+      header.classList.toggle('active')
+    }
+  </script>
+</body>
+</html>
